@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    color: darkblue;
+}
+a{
+    font-size: 25px;
+     text-decoration: none;
+    background-color: yellow;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+a:hover{
+    background-color: darkblue;
+    transition: 1s linear;
+}
+.q{
+    margin-left: 50px;
+}
+h2{
+    text-align: center;
+    color: darkblue;
+}
+table{
+    border-collapse: collapse;
+}
+img{
+    width: 200px;
+}
+.afisha {
+    display: flex;
+    width: 400px;
+    flex-wrap: wrap;
+}
+.afisha img {
+    opacity: 0.2;
+    width: 150px;
+}
+
+.afisha img:hover {
+    opacity: 1;
+    border: 6px solid navy ;
+    width: 100px;
+    padding: 5px;
+    transition: 0.5s ease-out;
+}
+.t:hover {
+    position: absolute;
+    transform:translateX(200px);
+    transition: 3s ease-in;
+}
+footer{
+    background-color: yellow;
+}
